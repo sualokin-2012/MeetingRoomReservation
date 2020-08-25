@@ -23,8 +23,8 @@ function DateTimePicker(props) {
             <TextField
                 id="datetime-local"
                 label="Meeting Room Reservation"
-                type="datetime-local"
-                defaultValue="2018-10-20T09:00"
+                type="time"
+                defaultValue="09:00"
                 className={classes.textField}
                 inputLabelProps={{
                     shrink: true,
